@@ -1,0 +1,54 @@
+/* Estilo global */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header e Footer */
+header, footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Navegação */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Seções */
+section {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+
+/* Seção Entretenimento (cor diferente) */
+#entretenimento {
+  background-color: #ffe0b2; /* tom de laranja claro */
+}
+
+/* Seção Tecnologia (cor diferente) */
+#tecnologia {
+  background-color: #e1bee7; /* tom de lilás */
+}
+
+/* Artigos */
+article {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}

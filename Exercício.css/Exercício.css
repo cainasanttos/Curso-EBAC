@@ -41,6 +41,11 @@ section {
   background-color: #ffe0b2; /* tom de laranja claro */
 }
 
+/* Seção Esportes (cor diferente) */
+#esportes {
+  background-color: #c8e6c9; /* tom de verde claro */
+}
+
 /* Seção Tecnologia (cor diferente) */
 #tecnologia {
   background-color: #e1bee7; /* tom de lilás */
@@ -51,4 +56,12 @@ article {
   margin-bottom: 20px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
+}
+
+/* Estilo para imagens dos artigos */
+.article-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
 }
